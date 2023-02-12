@@ -21,8 +21,8 @@ public class Calculator {
 
             // performs division between numbers
             case '/' : {
-                //TODO Add implementation
-                System.out.println("Implementation is missing");
+                result = number1 / number2;
+                System.out.println(number1 + " / " + number2 + " = " + result);
                 break;
             }
 
