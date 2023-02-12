@@ -35,8 +35,8 @@ public class Calculator {
 
             // calculates percentage of number
             case '%' : {
-                //TODO Add implementation
-                System.out.println("Implementation is missing");
+                result = (number2 / 100) * number1;
+                System.out.println(number1 + " % of " + number2 + " = " + result);
                 break;
             }
             
