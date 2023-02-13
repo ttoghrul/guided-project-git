@@ -42,8 +42,9 @@ public class Calculator {
             
             // performs power operation on number
             case '^' : {
-                //TODO Add implementation
-                System.out.println("Implementation is missing");
+                result = 1;
+                for(int i = 0; i < number2; i++) result *= number1;
+                System.out.println(number1 + " ^ " + number2 + " = " + result);
                 break;
             }
             default : System.out.println("Invalid operator");
