@@ -47,7 +47,7 @@ public class Calculator {
                 System.out.println(number1 + " ^ " + number2 + " = " + result);
                 break;
             }
-            default : System.out.println("Invalid operator");
+            default : System.out.println("Incorrect operation. Please select one of supported operations");
         }
     }
 }
